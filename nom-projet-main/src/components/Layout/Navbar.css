@@ -1,0 +1,70 @@
+.navbar {
+    background: linear-gradient(to right, #0d6efd, #6610f2); /* Dégradé moderne pour la navbar */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);  /* Ombre discrète pour la navbar */
+  }
+  
+  .custom-btn {
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .custom-btn:hover {
+    background-color: #6610f2;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Ombre au survol */
+  }
+  
+  .navbar-brand {
+    font-size: 1.75rem; /* Taille de police agrandie pour le logo */
+    letter-spacing: 1.5px;
+    font-family: 'Arial', sans-serif; /* Police élégante */
+    font-weight: bold;  /* Mettre en gras */
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+    padding: 8px 16px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #6610f2;  /* Couleur de survol plus marquée */
+  }
+  
+  .modal-content {
+    border-radius: 15px; /* Coins arrondis pour le modal */
+    border: 1px solid #6610f2;  /* Bordure élégante pour le modal */
+  }
+  
+  .btn-outline-light {
+    border: 2px solid #fff;
+    transition: background-color 0.3s, border-color 0.3s;
+    font-weight: 600;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #6610f2;
+    border-color: #6610f2;
+  }
+  
+  .dropdown-toggle {
+    border-radius: 25px;
+    padding: 8px 20px;
+    background-color: #0d6efd;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #6610f2;
+    color: white;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
