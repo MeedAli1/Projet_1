@@ -1,7 +1,42 @@
 import React from 'react';
 
 const DashboardTeacher = () => {
-  return (
+  return (<div className="d-flex">
+    {/* Sidebar */}
+    <div id="sidebar" className="d-flex flex-column p-3">
+      <h3>Bienvenue</h3>
+      <hr />
+      <ul className="nav nav-pills flex-column mb-auto">
+        <li className="nav-item">
+          <a href="#" className="nav-link active" aria-current="page">
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a href="#" className="nav-link">
+            Profile
+          </a>
+        </li>
+        <li>
+          <a href="#" className="nav-link">
+            Boîte de réception
+          </a>
+        </li>
+        <li>
+          <a href="#" className="nav-link">
+            Paramètre
+          </a>
+        </li>
+      </ul>
+      <hr />
+      <div>
+        <a href="#" className="nav-link">
+            Déconnexion
+        </a>
+      </div>
+    </div>
+  
+    {/* Page content */}
     <div className="container">
       <h1 className="text-center my-4">Tableau de bord enseignant</h1>
       <div className="card">
@@ -10,7 +45,9 @@ const DashboardTeacher = () => {
           <p>Vous êtes maintenant connecté en tant qu'enseignant.</p>
         </div>
       </div>
-    </div>
+    </div>  
+  </div>
+   
   );
 };
 

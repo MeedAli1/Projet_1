@@ -55,6 +55,7 @@
     background-color: #0056b3;
   }
   
+  
   /* الجدول المعروض للدورات */
   .table-dashboard {
     margin-top: 30px;
@@ -89,5 +90,33 @@
   #sidebar .nav-link.active {
     color: #fff;
     background-color: #003d79;
+  }
+  #cours {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  #cours th,
+  #cours td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #cours th:first-child {
+    border-top-left-radius: 6px;
+  }
+  
+  #cours th:last-child {
+    border-top-right-radius: 6px;
+  }
+  
+  #cours tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+  }
+  
+  #cours tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
   }
   

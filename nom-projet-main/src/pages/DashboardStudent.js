@@ -6,7 +6,7 @@ function DashboardStudent() {
     <div className="d-flex">
   {/* Sidebar */}
   <div id="sidebar" className="d-flex flex-column p-3">
-    <h3>  </h3>
+    <h3>Bienvenue</h3>
     <hr />
     <ul className="nav nav-pills flex-column mb-auto">
       <li className="nav-item">
@@ -44,23 +44,23 @@ function DashboardStudent() {
       <h2>Bienvenue sur votre Tableau de Bord</h2>
     </div>
 
-    <div className="dashboard-card">
-  <div className="d-flex justify-content-between align-items-center mb-3">
-    <div className="card-title">Informations de l'étudiant</div>
-    <button className="btn btn-primary mt-3">Visiter le profil</button>
-  </div>
-  <div className="card-content">
-    <p><strong>Nom :</strong> Mohamed Ali</p>
-    <p><strong>Email :</strong> mohamedali@example.com</p>
-    <p><strong>Rôle :</strong> Étudiant</p>
-    <p><strong>Niveau :</strong> License</p>
-  </div>
+    <div className="dashboard-card" >
+     <div className="d-flex justify-content-between align-items-center mb-3">
+        <div className="card-title">Informations de l'étudiant</div>
+          <button className="btn btn-primary mt-3">Visiter le profil</button>
+         </div>
+        <div className="card-content">
+            <p><strong>Nom :</strong> Mohamed Ali</p>
+            <p><strong>Email :</strong> mohamedali@example.com</p>
+            <p><strong>Rôle :</strong> Étudiant</p>
+            <p><strong>Niveau :</strong> License</p>
+        </div>
   
-</div>
+      </div>
 
     <div className="dashboard-card">
       <div className="card-title">Vos Cours</div>
-      <table className="table table-dashboard">
+      <table className="table table-dashboard" id="cours">
         <thead>
           <tr>
             <th>#</th>
