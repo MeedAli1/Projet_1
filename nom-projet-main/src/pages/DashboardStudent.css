@@ -2,7 +2,9 @@
 .dashboard-container {
     background-color: #f4f6f9;
     min-height: 100vh;
-    padding-top: 30px;
+    padding: 30px;
+    
+    flex:1;
   }
   
   /* عنوان الصفحة */
@@ -71,4 +73,21 @@
     background-color: #f1f1f1;
   }
   
+  body {
+    overflow-x: hidden;
+  }
+  #sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background: #0080ff;
+    color: #fff;
+  }
+  #sidebar .nav-link {
+    color: #adb5bd;
+  }
+  #sidebar .nav-link.active {
+    color: #fff;
+    background-color: #003d79;
+  }
   

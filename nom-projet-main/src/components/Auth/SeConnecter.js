@@ -22,12 +22,14 @@ function SeConnecter({ onCloseModal }) {
     e.preventDefault();
 
     // فرضيات للتحقق من نوع المستخدم (يمكن تعديلها لاحقًا باستخدام خدمة تحقق من المستخدم)
-    if (emailOrPhone === "aaaa@example.com" && password === "aaaa") {
+    if (emailOrPhone === "student" && password === "") {
+      onCloseModal?.();
       navigate('/Dashboard-Student'); // توجيه إلى لوحة التحكم الخاصة بالطالب
-      onCloseModal?.(); // إغلاق الـModal
-    } else if (emailOrPhone === "enseignant@example.com" && password === "passwordTeacher") {
+       // إغلاق الـModal
+    } else if (emailOrPhone === "teacher" && password === "") {
+      onCloseModal?.();
       navigate('/dashboard-teacher'); // توجيه إلى لوحة التحكم الخاصة بالمدرس
-      onCloseModal?.(); // إغلاق الـModal
+       // إغلاق الـModal
     } else {
       alert("Email ou mot de passe incorrect!");
     }
